@@ -1,0 +1,32 @@
+{
+  "name": "three-js-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "npm test -- --watchAll",
+    "start": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@types/jest": "^26.0.24",
+    "babel-jest": "^27.0.6",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "jest": "^27.0.6",
+    "jest-plugin-context": "^2.9.0",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "three": "^0.130.1"
+  }
+}
